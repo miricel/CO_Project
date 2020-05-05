@@ -1,0 +1,5 @@
+Warmup took 68440.6 Micro
+Took  7873700ns. =  7873.7 Micro
+OPS  0.0078737
+ MOPS  5.378665684493948E-6
+ 
