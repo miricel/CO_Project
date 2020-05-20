@@ -6,10 +6,12 @@ import java.awt.Graphics;
 public class BodyPart {
 
     private int xCoor, yCoor, width, height;
+    private Color color;
 
-    public BodyPart(int xCoor, int yCoor, int tileSize) {
+    public BodyPart(int xCoor, int yCoor, int tileSize,Color color) {
         this.xCoor = xCoor;
         this.yCoor = yCoor;
+        this.color = color;
         width = tileSize;
         height = tileSize;
     }
@@ -17,7 +19,7 @@ public class BodyPart {
 
     }
     public void draw(Graphics g) {
-        g.setColor(new Color(130,120,150));
+        g.setColor(color);
         g.fillRect(xCoor * width, yCoor * height, width, height);
         //g.setColor(Color.GREEN);
         //g.fillRect(xCoor * width + 2, yCoor * height + 2, width -4, height-4);

@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3da68237-66aa-4a9b-9eb9-1d1189fde9e9" name="Default Changelist" comment="" />
+    <list default="true" id="3da68237-66aa-4a9b-9eb9-1d1189fde9e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/META-INF/CO-snake.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/Screen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/Screen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/testbench/TestCPUFixedPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CO-snake/testbench/TestCPUFixedPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bench/Snake/BodyPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/Snake/BodyPart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bench/Snake/FixedPointSnake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/Snake/FixedPointSnake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bench/Snake/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/Snake/Screen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bench/Snake/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/Snake/Snake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bench/cpu/CPUFixedPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/cpu/CPUFixedPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testbench/TestCPUFixedPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testbench/TestCPUFixedPoint.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +37,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1bktgGouAuwbn6h7TlGtkoi6IQx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +49,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -33,7 +61,7 @@
       <recent name="C:\Users\mirom\Desktop\TravelMapDeni\CO-snake\src\bench" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestCPUFixedPoint">
+  <component name="RunManager" selected="Application.SnakeWithFixedPoint">
     <configuration name="Snake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bench.Snake.Snake" />
       <module name="CO-snake" />
@@ -47,12 +75,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SnakeFixedPointGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bench.Snake.SnakeFixedPointGUI" />
+    <configuration name="SnakeWithFixedPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testbench.SnakeWithFixedPoint" />
       <module name="CO-snake" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bench.Snake.*" />
+          <option name="PATTERN" value="testbench.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCPUDigitsOfPi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testbench.TestCPUDigitsOfPi" />
+      <module name="CO-snake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testbench.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,8 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSnake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testbench.TestSnake" />
+    <configuration name="TestCPUFixedVsFloatingPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testbench.TestCPUFixedVsFloatingPoint" />
       <module name="CO-snake" />
       <extension name="coverage">
         <pattern>
@@ -88,10 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SnakeWithFixedPoint" />
         <item itemvalue="Application.TestCPUFixedPoint" />
-        <item itemvalue="Application.Snake2" />
-        <item itemvalue="Application.TestSnake" />
-        <item itemvalue="Application.SnakeFixedPointGUI" />
+        <item itemvalue="Application.TestCPUFixedVsFloatingPoint" />
+        <item itemvalue="Application.Snake" />
+        <item itemvalue="Application.TestCPUDigitsOfPi" />
       </list>
     </recent_temporary>
   </component>
@@ -141,22 +183,42 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1589197532791" />
-    <state width="1237" height="138" key="GridCell.Tab.0.bottom" timestamp="1589361507640">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state width="1148" height="237" key="GridCell.Tab.0.bottom" timestamp="1589998601570">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1237" height="138" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1589361507640" />
-    <state width="1237" height="138" key="GridCell.Tab.0.center" timestamp="1589361507640">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state width="1148" height="237" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1589998601570" />
+    <state width="1148" height="237" key="GridCell.Tab.0.center" timestamp="1589998601570">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1237" height="138" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1589361507640" />
-    <state width="1237" height="138" key="GridCell.Tab.0.left" timestamp="1589361507640">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state width="1148" height="237" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1589998601570" />
+    <state width="1148" height="237" key="GridCell.Tab.0.left" timestamp="1589998601570">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1237" height="138" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1589361507640" />
-    <state width="1237" height="138" key="GridCell.Tab.0.right" timestamp="1589361507640">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state width="1148" height="237" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1589998601570" />
+    <state width="1148" height="237" key="GridCell.Tab.0.right" timestamp="1589998601570">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1237" height="138" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1589361507640" />
+    <state width="1148" height="237" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1589998601570" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1589972105519">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1589972105519" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1589972105519">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1589972105519" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1589972105519">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1589972105519" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1589972105519">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1589972105519" />
     <state x="337" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1589195070097">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -169,5 +231,30 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="633" y="0" width="653" height="696" key="dock-window-1/0.0.1280.689@0.0.1280.689" timestamp="1589360371538" />
+    <state x="315" y="156" key="refactoring.ChangeSignatureDialog" timestamp="1589995635244">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="315" y="156" key="refactoring.ChangeSignatureDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1589995635244" />
+  </component>
+  <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
+    <option name="sizePresets">
+      <list>
+        <SizePreset>
+          <option name="caption" value="Phone" />
+          <option name="height" value="568" />
+          <option name="width" value="320" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Tablet" />
+          <option name="height" value="1024" />
+          <option name="width" value="768" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Desktop" />
+          <option name="height" value="900" />
+          <option name="width" value="1440" />
+        </SizePreset>
+      </list>
+    </option>
   </component>
 </project>

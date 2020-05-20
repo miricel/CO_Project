@@ -1,25 +1,19 @@
 package bench.Snake;
 
 import javax.swing.JFrame;
+import java.awt.*;
+import java.util.ArrayList;
 
 public class Snake {
 
     Screen  screen;
-    public Snake() {
 
-        JFrame frame = new JFrame();
-        screen = new Screen();
+    public Snake(Screen screen) {
 
-        frame.add(screen);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setTitle("Snake");
-        frame.setResizable(false);
-        frame.pack();
-        frame.setLocationRelativeTo(null);
-        frame.setVisible(true);
+        this.screen = screen;
 
     }
     public static void main(String[] args) {
-        new Snake();
+        new Snake(new Screen());
     }
 }
