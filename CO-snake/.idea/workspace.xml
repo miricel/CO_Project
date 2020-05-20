@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3da68237-66aa-4a9b-9eb9-1d1189fde9e9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1bktgGouAuwbn6h7TlGtkoi6IQx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="C:/Facultate/An II/SEF/Proiect/Travel Map Project/travel-map" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mirom\Desktop\TravelMapDeni\CO-snake\src" />
+      <recent name="C:\Users\mirom\Desktop\TravelMapDeni\CO-snake\src\bench" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SnakeWithFixedPoint">
+    <configuration name="Snake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bench.Snake.Snake" />
+      <module name="CO-snake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bench.Snake.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SnakeWithFixedPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testbench.SnakeWithFixedPoint" />
+      <module name="CO-snake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testbench.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCPUDigitsOfPi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testbench.TestCPUDigitsOfPi" />
+      <module name="CO-snake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testbench.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCPUFixedPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testbench.TestCPUFixedPoint" />
+      <module name="CO-snake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testbench.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCPUFixedVsFloatingPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testbench.TestCPUFixedVsFloatingPoint" />
+      <module name="CO-snake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testbench.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SnakeWithFixedPoint" />
+        <item itemvalue="Application.TestCPUFixedPoint" />
+        <item itemvalue="Application.TestCPUFixedVsFloatingPoint" />
+        <item itemvalue="Application.Snake" />
+        <item itemvalue="Application.TestCPUDigitsOfPi" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3da68237-66aa-4a9b-9eb9-1d1189fde9e9" name="Default Changelist" comment="" />
+      <created>1589188028983</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589188028983</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="3" key="#Project_Structure" timestamp="1589188045297">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="233" y="3" key="#Project_Structure/0.0.1280.689@0.0.1280.689" timestamp="1589188045297" />
+    <state x="0" y="6" key="#Template" timestamp="1589189942889">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="0" y="6" key="#Template/0.0.1280.689@0.0.1280.689" timestamp="1589189942889" />
+    <state x="421" y="10" key="#com.intellij.codeInsight.i18n.I18nizeQuickFixDialog_Form" timestamp="1589192542970">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="421" y="10" key="#com.intellij.codeInsight.i18n.I18nizeQuickFixDialog_Form/0.0.1280.689@0.0.1280.689" timestamp="1589192542970" />
+    <state x="189" y="87" key="#com.intellij.ide.util.MemberChooser" timestamp="1590004774788">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="126" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1589356040775" />
+    <state x="189" y="87" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1590004774788" />
+    <state x="74" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589190142692">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="74" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.689@0.0.1280.689" timestamp="1589190142692" />
+    <state x="371" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589358060333">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="371" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689@0.0.1280.689" timestamp="1589358060333" />
+    <state x="423" y="150" key="#com.intellij.uiDesigner.palette.ComponentItemDialog" timestamp="1589192775550">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="423" y="150" key="#com.intellij.uiDesigner.palette.ComponentItemDialog/0.0.1280.689@0.0.1280.689" timestamp="1589192775550" />
+    <state x="632" y="152" key="FileChooserDialogImpl" timestamp="1590000096335">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1589197532791" />
+    <state x="632" y="152" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1590000096335" />
+    <state width="893" height="185" key="GridCell.Tab.0.bottom" timestamp="1590005101317">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1237" height="138" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1589361507640" />
+    <state width="893" height="185" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1590005101317" />
+    <state width="893" height="185" key="GridCell.Tab.0.center" timestamp="1590005101317">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1237" height="138" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1589361507640" />
+    <state width="893" height="185" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1590005101317" />
+    <state width="893" height="185" key="GridCell.Tab.0.left" timestamp="1590005101317">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1237" height="138" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1589361507640" />
+    <state width="893" height="185" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1590005101317" />
+    <state width="893" height="185" key="GridCell.Tab.0.right" timestamp="1590005101317">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1237" height="138" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1589361507640" />
+    <state width="893" height="185" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1590005101317" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1589972105519">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1589972105519" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1589972105519">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1589972105519" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1589972105519">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1589972105519" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1589972105519">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1589972105519" />
+    <state x="506" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1589999381500">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="337" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1589195070097" />
+    <state x="506" y="258" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1589999381500" />
+    <state x="413" y="226" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog" timestamp="1589191714601">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="413" y="226" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog/0.0.1280.689@0.0.1280.689" timestamp="1589191714601" />
+    <state x="927" y="0" width="1000" height="1057" key="dock-window-1" timestamp="1590001686864">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="633" y="0" width="653" height="696" key="dock-window-1/0.0.1280.689@0.0.1280.689" timestamp="1589360371538" />
+    <state x="927" y="0" width="1000" height="1057" key="dock-window-1/0.0.1920.1050@0.0.1920.1050" timestamp="1590001686864" />
+    <state x="315" y="156" key="refactoring.ChangeSignatureDialog" timestamp="1589995635244">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="315" y="156" key="refactoring.ChangeSignatureDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1589995635244" />
+  </component>
+  <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
+    <option name="sizePresets">
+      <list>
+        <SizePreset>
+          <option name="caption" value="Phone" />
+          <option name="height" value="568" />
+          <option name="width" value="320" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Tablet" />
+          <option name="height" value="1024" />
+          <option name="width" value="768" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Desktop" />
+          <option name="height" value="900" />
+          <option name="width" value="1440" />
+        </SizePreset>
+      </list>
+    </option>
+  </component>
+</project>
