@@ -16,6 +16,7 @@ public class FixedPointSnake implements IBenchmark {
     int size = 100;
     private Snake fixedsnake;
     private Snake floatingsnake;
+    private Snake simplesnake;
 
     @Override
     public void run() {
@@ -46,8 +47,9 @@ public class FixedPointSnake implements IBenchmark {
         l=2;
 
         Screen screen = new Screen();
-        fixedsnake = new Snake(screen);
-        floatingsnake = new Snake(screen);
+        fixedsnake = screen.getFixedsnake();
+        floatingsnake = screen.getFloatingsnake();
+        simplesnake = screen.getSimplesnake();
 
         running = true;
     }
@@ -62,7 +64,6 @@ public class FixedPointSnake implements IBenchmark {
     public void cancel() {
         // TODO Auto-generated method stub
         running = false;
-        fixedsnake.screen.stop();
 
     }
 
@@ -99,8 +100,9 @@ public class FixedPointSnake implements IBenchmark {
             }
 
             direction %= 4;
-            fixedsnake.screen.move1(direction,1);
-            floatingsnake.screen.move2(r.nextInt(4),2);
+            fixedsnake.move(direction);
+            floatingsnake.move(r.nextInt(4));
+            simplesnake.move(r.nextInt(4));
         }
     }
 
