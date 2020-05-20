@@ -4,16 +4,16 @@ import java.awt.*;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class Snake {
+public class Snake extends Thread {
 
     private final int max;
     private Screen  screen;
-    private final ArrayList<Apple> apples;
+  //  private final ArrayList<Apple> apples;
     private ArrayList<BodyPart> body = new ArrayList<BodyPart>();
     private BodyPart b;
     private Apple apple;
     private int xCoor = 10, yCoor = 10;
-    private int size = 5;
+    private int size = 15;
     private boolean right = true, left = false, up = false, down =false;
     private Color color;
     private Random r = new Random();
@@ -24,8 +24,16 @@ public class Snake {
         this.color = color;
         this.screen = screen;
         this.max = max;
-        this.apples = apples;
+       // this.apples = apples;
 
+    }
+
+    @Override
+    public void run() {
+        while(true){
+            tick();
+            screen.repaint();
+        }
     }
 
     public void tick() {
@@ -35,7 +43,7 @@ public class Snake {
         }
 
 
-        while(apples.size() < 40) {
+       /* while(apples.size() < 40) {
             int xCoor = r.nextInt(max);
             int yCoor = r.nextInt(max);
 
@@ -51,6 +59,8 @@ public class Snake {
                 i++;
             }
         }
+
+        */
 
         if(xCoor < 0 ) {
             goUp();
@@ -73,7 +83,7 @@ public class Snake {
 
         ticks++;
 
-        if(ticks > 100000) {
+        if(ticks > 50000) {
             if(right) xCoor++;
             if(left) xCoor--;
             if(up) yCoor--;

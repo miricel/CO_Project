@@ -3,7 +3,6 @@ package testbench;
 import java.io.IOException;
 
 import bench.Snake.FixedPointSnake;
-import bench.cpu.CPUFixedPoint;
 import logging.ConsoleLogger;
 import logging.FileLogger;
 import logging.ILogger;
@@ -23,7 +22,7 @@ public class SnakeWithFixedPoint {
         ILogger fileLogger = new FileLogger("writefile.txt");
         ILogger consoleLogger = new ConsoleLogger();
 
-        final int workload = 5000000;
+        final int workload = 2500000;
         final int size = 40;
 
         bench.initialize(workload,size);

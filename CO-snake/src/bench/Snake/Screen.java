@@ -13,9 +13,9 @@ public class Screen extends JPanel implements Runnable {
 
     public static final int WIDTH = 520, HEIGHT = 520;
     public static final int max = (WIDTH*39)/400 +1;
-    private final Snake fixedsnake;
-    private final Snake floatingsnake;
-    private final Snake simplesnake;
+    private Snake fixedsnake;
+    private Snake floatingsnake;
+    private Snake simplesnake;
 
     private Thread thread;
     private boolean running = false;
@@ -44,10 +44,6 @@ public class Screen extends JPanel implements Runnable {
         r = new Random();
 
         apples = new ArrayList<Apple>();
-
-        fixedsnake = new Snake(this, new Color(130,110,150),max,apples);
-        floatingsnake = new Snake(this,new Color(100,150,100),max,apples);
-        simplesnake = new Snake(this,new Color(150,100,100),max,apples);
 
         start();
     }
@@ -88,14 +84,18 @@ public class Screen extends JPanel implements Runnable {
 
     public void start() {
         running = true;
-        thread = new Thread(this);
-        thread.start();
+        fixedsnake = new Snake(this, new Color(130,110,150),max,apples);
+        fixedsnake.start();
+        floatingsnake = new Snake(this,new Color(100,150,100),max,apples);
+        floatingsnake.start();
+        simplesnake = new Snake(this,new Color(160,90,110),max,apples);
+        simplesnake.start();
     }
 
     public void stop() {
         running = false;
         try {
-            thread.join();
+            fixedsnake.join();
         } catch (InterruptedException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -105,7 +105,6 @@ public class Screen extends JPanel implements Runnable {
     public void run() {
         while (running) {
 
-          fixedsnake.tick();
           floatingsnake.tick();
           simplesnake.tick();
           repaint();
