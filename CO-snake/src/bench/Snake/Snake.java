@@ -52,16 +52,6 @@ public class Snake {
             }
         }
 
-      /*  for(int i =0; i < snake.size(); i++) {
-            if(xCoor == snake.get(i).getxCoor() &&
-                    yCoor == snake.get(i).getyCoor()) {
-                if(i != snake.size() - 1) {
-                    System.out.println("Stop!");
-                    stop();
-                }
-            }
-        }
-*/
         if(xCoor < 0 ) {
             goUp();
             xCoor ++;
@@ -83,7 +73,7 @@ public class Snake {
 
         ticks++;
 
-        if(ticks > 250000) {
+        if(ticks > 100000) {
             if(right) xCoor++;
             if(left) xCoor--;
             if(up) yCoor--;
@@ -114,6 +104,8 @@ public class Snake {
             goDown();
         }
     }
+
+
 
     private void goDown() {
         left = false;
