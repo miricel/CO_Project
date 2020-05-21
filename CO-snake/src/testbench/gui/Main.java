@@ -28,6 +28,7 @@ public class Main {
     public static void main(String[] args) throws IOException, NullPointerException{
         frame = new JFrame("Benchmarking Application");
         BImage bi = new BImage();
+
         JButton snakeButton = new JButton("Snake");
         JButton fractalButton = new JButton("Fractal");
         snakeButton.setFont(new Font("Jokerman", Font.PLAIN, 25));
@@ -110,7 +111,7 @@ public class Main {
                 ex.printStackTrace();
             }
 
-            frame.setVisible(true);
+            //frame.setVisible(true);
 
         }
     }

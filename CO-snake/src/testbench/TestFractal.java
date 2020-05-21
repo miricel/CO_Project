@@ -6,6 +6,7 @@ import bench.IBenchmark;
 import bench.Snake.FixedPointSnake;
 import bench.cpu.CPUFixedVsFloatingPoint;
 import bench.cpu.NumberRepresentation;
+import bench.database.Fractal;
 import logging.ConsoleLogger;
 import logging.FileLogger;
 import logging.ILogger;
@@ -51,5 +52,7 @@ public class TestFractal {
 
         bench.clean();
         fileLogger.close();
+        Fractal fractal = new Fractal();
+        fractal.doAll(time);
     }
 }
