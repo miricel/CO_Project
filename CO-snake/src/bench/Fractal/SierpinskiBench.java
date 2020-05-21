@@ -2,17 +2,28 @@ package bench.Fractal;
 
 import bench.IBenchmark;
 
+import javax.swing.*;
 import java.io.IOException;
 
-public class Sierpinsky implements IBenchmark {
+public class SierpinskiBench implements IBenchmark {
     @Override
     public void run() {
-        new SierpinskyCarpet().setVisible(true);
+        JFrame frame=new JFrame();
+        frame.setSize(1800, 1000);
+        frame.setTitle("Sierpinski Carpet");
+        frame.setLocationRelativeTo(null);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        frame.setContentPane(new SierpinskiCarpet());
+        frame.setVisible(true);
+
+        frame.repaint();
+        System.out.println("Done");
     }
 
     @Override
     public void run(Object... params) throws IOException {
-        new SierpinskyCarpet((int)params[1]).setVisible(true);
+        run();
     }
 
     @Override
@@ -31,7 +42,7 @@ public class Sierpinsky implements IBenchmark {
 
     @Override
     public void warmUp() throws IOException {
-        new SierpinskyCarpet(3).setVisible(false);
+        new SierpinskiCarpet();
     }
 
     @Override
