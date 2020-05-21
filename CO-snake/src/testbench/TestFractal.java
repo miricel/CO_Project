@@ -1,11 +1,7 @@
 package testbench;
 
-import bench.Fractal.Sierpinsky;
-import bench.Fractal.SierpinskyBench;
+import bench.Fractal.SierpinskiBench;
 import bench.IBenchmark;
-import bench.Snake.FixedPointSnake;
-import bench.cpu.CPUFixedVsFloatingPoint;
-import bench.cpu.NumberRepresentation;
 import logging.ConsoleLogger;
 import logging.FileLogger;
 import logging.ILogger;
@@ -19,7 +15,7 @@ public class TestFractal {
     public static void main(String[] args) throws IOException {
 
 
-        IBenchmark bench = new SierpinskyBench();
+        IBenchmark bench = new SierpinskiBench();
         ITiming timer = new Timing();
         ILogger fileLogger = new FileLogger("writefile.txt");
         ILogger consoleLogger = new ConsoleLogger();
