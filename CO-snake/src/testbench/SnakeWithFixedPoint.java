@@ -3,6 +3,7 @@ package testbench;
 import java.io.IOException;
 
 import bench.Snake.FixedPointSnake;
+import bench.database.Snake;
 import logging.ConsoleLogger;
 import logging.FileLogger;
 import logging.ILogger;
@@ -41,7 +42,7 @@ public class SnakeWithFixedPoint {
             bench.run();
             time = timer.pause();
             fileLogger.write("Run "+  i +":",time);
-            //consoleLogger.write("Run "+ i +":",time);
+            consoleLogger.write("Run "+ i +":",time);
         }
         time = timer.stop();
         bench.cancel();
@@ -66,6 +67,8 @@ public class SnakeWithFixedPoint {
 
         bench.clean();
         fileLogger.close();
+        Snake snake = new Snake();
+        snake.doAll(time);
     }
 
     public static void cancel(){

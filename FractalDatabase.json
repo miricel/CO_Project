@@ -1,0 +1,34 @@
+[
+  {
+    "CPU": "Windows 10",
+    "OS": "amd64",
+    "cores": 4,
+    "score": 1318,
+    "clock": 131875900,
+    "ram": 8488435712
+  },
+  {
+    "CPU": "Windows 10",
+    "OS": "amd64",
+    "cores": 4,
+    "score": 1015,
+    "clock": 101516800,
+    "ram": 8488435712
+  },
+  {
+    "CPU": "Windows 10",
+    "OS": "amd64",
+    "cores": 4,
+    "score": 1062,
+    "clock": 106219200,
+    "ram": 8488435712
+  },
+  {
+    "CPU": "Windows 10",
+    "OS": "amd64",
+    "cores": 4,
+    "score": 141,
+    "clock": 14158000,
+    "ram": 8488435712
+  }
+]
