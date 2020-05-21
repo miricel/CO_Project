@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3da68237-66aa-4a9b-9eb9-1d1189fde9e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/bench/Snake/BackgroundPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bench/Snake/SnakeCount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CO-snake.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CO-snake.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/FixedPointSnake$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/FixedPointSnake$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/FixedPointSnake$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/FixedPointSnake$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/FixedPointSnake.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/FixedPointSnake.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/Screen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/Screen.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/Snake.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/Snake.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/testbench/SnakeWithFixedPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CO-snake/testbench/SnakeWithFixedPoint.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bench/Snake/FixedPointSnake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/Snake/FixedPointSnake.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bench/Snake/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/Snake/Screen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bench/Snake/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/Snake/Snake.java" afterDir="false" />
@@ -26,6 +32,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1bktgGouAuwbn6h7TlGtkoi6IQx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -48,35 +55,16 @@
       <recent name="C:\Users\mirom\Desktop\TravelMapDeni\CO-snake\src\bench" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SnakeWithFixedPoint">
-    <configuration name="Snake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bench.Snake.Snake" />
+  <component name="RunManager" selected="Application.TestFractal">
+    <configuration name="Generate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generate" />
       <module name="CO-snake" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bench.Snake.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SnakeWithFixedPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testbench.SnakeWithFixedPoint" />
-      <module name="CO-snake" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testbench.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCPUDigitsOfPi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testbench.TestCPUDigitsOfPi" />
       <module name="CO-snake" />
       <extension name="coverage">
         <pattern>
@@ -114,13 +102,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestFractal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testbench.TestFractal" />
+      <module name="CO-snake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testbench.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SnakeWithFixedPoint" />
+        <item itemvalue="Application.TestFractal" />
+        <item itemvalue="Application.Generate" />
         <item itemvalue="Application.TestCPUFixedPoint" />
         <item itemvalue="Application.TestCPUFixedVsFloatingPoint" />
-        <item itemvalue="Application.Snake" />
-        <item itemvalue="Application.TestCPUDigitsOfPi" />
       </list>
     </recent_temporary>
   </component>
@@ -150,11 +151,11 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="421" y="10" key="#com.intellij.codeInsight.i18n.I18nizeQuickFixDialog_Form/0.0.1280.689@0.0.1280.689" timestamp="1589192542970" />
-    <state x="189" y="87" key="#com.intellij.ide.util.MemberChooser" timestamp="1590005338042">
+    <state x="189" y="87" key="#com.intellij.ide.util.MemberChooser" timestamp="1590090673065">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="126" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1589356040775" />
-    <state x="189" y="87" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1590005338042" />
+    <state x="189" y="87" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1590090673065" />
     <state x="74" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589190142692">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -172,26 +173,26 @@
     </state>
     <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1589197532791" />
     <state x="632" y="152" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1590064653189" />
-    <state width="1877" height="145" key="GridCell.Tab.0.bottom" timestamp="1590077914116">
+    <state width="1877" height="145" key="GridCell.Tab.0.bottom" timestamp="1590096927602">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1237" height="138" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1589361507640" />
-    <state width="1877" height="145" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1590077914116" />
-    <state width="1877" height="145" key="GridCell.Tab.0.center" timestamp="1590077914116">
+    <state width="1877" height="145" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1590096927602" />
+    <state width="1877" height="145" key="GridCell.Tab.0.center" timestamp="1590096927602">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1237" height="138" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1589361507640" />
-    <state width="1877" height="145" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1590077914116" />
-    <state width="1877" height="145" key="GridCell.Tab.0.left" timestamp="1590077914115">
+    <state width="1877" height="145" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1590096927602" />
+    <state width="1877" height="145" key="GridCell.Tab.0.left" timestamp="1590096927601">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1237" height="138" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1589361507640" />
-    <state width="1877" height="145" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1590077914115" />
-    <state width="1877" height="145" key="GridCell.Tab.0.right" timestamp="1590077914116">
+    <state width="1877" height="145" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1590096927601" />
+    <state width="1877" height="145" key="GridCell.Tab.0.right" timestamp="1590096927602">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1237" height="138" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1589361507640" />
-    <state width="1877" height="145" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1590077914116" />
+    <state width="1877" height="145" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1590096927602" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1589972105519">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -208,10 +209,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1589972105519" />
+    <state x="672" y="240" key="MultipleFileMergeDialog" timestamp="1590083075639">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="672" y="240" key="MultipleFileMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1590083075639" />
     <state x="337" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1589195070097">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="337" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1589195070097" />
+    <state x="769" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590083072371">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="769" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1590083072371" />
     <state x="413" y="226" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog" timestamp="1589191714601">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

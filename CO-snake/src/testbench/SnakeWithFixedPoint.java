@@ -12,12 +12,14 @@ import timing.Timing;
 
 public class SnakeWithFixedPoint {
 
-    public static void main(String[] args)throws IOException{
+    private static boolean running = false;
+    private static FixedPointSnake bench = new FixedPointSnake();
+
+    public static void main(String[] args){
         // TODO Auto-generated method stub
 
         long time;
 
-        FixedPointSnake bench = new FixedPointSnake();
         ITiming timer = new Timing();
         ILogger fileLogger = new FileLogger("writefile.txt");
         ILogger consoleLogger = new ConsoleLogger();
@@ -26,10 +28,15 @@ public class SnakeWithFixedPoint {
         final int size = 40;
 
         bench.initialize(workload,size);
-       // bench.warmUp();
+        try {
+            bench.warmUp();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
+        running = true;
         timer.start();
-        for(int i=0; i<12; ++i) {
+        for(int i=0; i<12 && running; ++i) {
             timer.resume();
             bench.run();
             time = timer.pause();
@@ -59,6 +66,11 @@ public class SnakeWithFixedPoint {
 
         bench.clean();
         fileLogger.close();
+    }
+
+    public static void cancel(){
+        running = false;
+        bench.cancel();
     }
 }
 

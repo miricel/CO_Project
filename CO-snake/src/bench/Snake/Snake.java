@@ -148,11 +148,11 @@ public class Snake extends Thread {
         right = true;
     }
 
-    public ArrayList<BodyPart> getBody() {
+    public synchronized  ArrayList<BodyPart> getBody() {
         return body;
     }
 
-    public static ArrayList<Apple> getApples() {
+    public synchronized static ArrayList<Apple> getApples() {
         return apples;
     }
 }

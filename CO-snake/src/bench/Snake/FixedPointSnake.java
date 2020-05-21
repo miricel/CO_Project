@@ -2,9 +2,7 @@ package bench.Snake;
 
 import bench.IBenchmark;
 
-import java.awt.*;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
 import java.util.Random;
 
 public class FixedPointSnake implements IBenchmark {
@@ -17,8 +15,11 @@ public class FixedPointSnake implements IBenchmark {
     int size = 100;
     private Snake fixedsnake;
     private Snake floatingsnake;
+    private Screen screen;
     private Thread fixed;
     private Thread floating;
+    private float[] numf;
+    private float[] resf = new float[10];
 
     @Override
     public void run() {
@@ -61,17 +62,23 @@ public class FixedPointSnake implements IBenchmark {
         // TODO Auto-generated method stub
         workload = (int) params[0];
         num = new int[5];
+        numf = new float[5];
         num[0] = 0;
         num[1] = 1;
         num[2] = 2;
         num[3] = 3;
         num[4] = 4;
+        numf[0] = (float) 0.0;
+        numf[1] = (float) 1.0;
+        numf[2] = (float) 2.0;
+        numf[3] = (float) 3.0;
+        numf[4] = (float) 4.0;
         i=3;
         j=1;
         k=1;
         l=2;
 
-        Screen screen = new Screen();
+        screen = new Screen();
         fixedsnake = screen.getFixedsnake();
         floatingsnake = screen.getFloatingsnake();
 
@@ -89,12 +96,23 @@ public class FixedPointSnake implements IBenchmark {
         // TODO Auto-generated method stub
         running = false;
 
+        fixed.stop();
+        floating.stop();
+        screen.stop();
+
+        try {
+            fixed.join();
+            floating.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
     }
 
     @Override
     public void warmUp() throws IOException {
         // TODO Auto-generated method stub
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < 3; i++)
             run();
 
     }
@@ -110,7 +128,7 @@ public class FixedPointSnake implements IBenchmark {
         Random r = new Random();
         int direction = 0;
         for (int moves = 0; moves < 40; moves ++){
-            for(int a = 0; a<workload; a++)
+            for(int a = 0; a<workload && running; a++)
             {
                 j = num[1] * (k-j ) * (1-k);
                 k = num[3] * k - (1 - j) * k;
@@ -125,29 +143,33 @@ public class FixedPointSnake implements IBenchmark {
 
             direction %= 4;
             fixedsnake.move(direction);
-
+            screen.addPurple();
         }
     }
 
-    public void FloatingArithmetic(){
-        i = 3;
+    public void FloatingArithmetic() {
+        float i = (float) 3.0, j = (float) 1.0, k = (float) 1.0, l = (float) 2.0;
         Random r = new Random();
-        int direction = 0;
-        for (int moves = 0; moves < 40; moves ++) {
-            for (int a = 0; a < workload; a++) {
-                j = num[1] * (k - j) * (1 - k);
-                k = num[3] * k - (1 - j) * k;
-                l = (l - k) * (num[1] + j);
+        float direction = 0;
+        for (int moves = 0; moves < 40; moves++) {
+            for (int a = 0; a < workload && running; a++) {
+                j = numf[1] * (k - j) * (1 - k);
+                k = numf[3] * k - (1 - j) * k;
+                l = (l - k) * (numf[1] + j);
                 i = i % 10;
-                direction = i + j + k + l + r.nextInt(284);
+                direction = i + j + k + l + r.nextFloat();
 
-                num[k % 3] = (j - l) + k * num[1] * j;
-                res[i - 2] = j + k + 1;
-                res[i - 1] = j * k * 1;
+                numf[(int) (k % 3)] = ((j - l) + k * numf[1] * j);
+                resf[(int) (i - 2)] = (j + k + 1);
+                resf[(int) (i - 1)] = j * k * 1;
+
+
             }
+            direction = direction + 2 * r.nextFloat();
+            direction = (int) direction % 4;
+            floatingsnake.move((int) direction);
+            screen.addGreen();
 
-            direction %= 4;
-            floatingsnake.move(r.nextInt(4));
         }
     }
 
