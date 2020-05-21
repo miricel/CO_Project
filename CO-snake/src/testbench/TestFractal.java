@@ -2,6 +2,10 @@ package testbench;
 
 import bench.Fractal.SierpinskiBench;
 import bench.IBenchmark;
+import bench.Snake.FixedPointSnake;
+import bench.cpu.CPUFixedVsFloatingPoint;
+import bench.cpu.NumberRepresentation;
+import bench.database.Fractal;
 import logging.ConsoleLogger;
 import logging.FileLogger;
 import logging.ILogger;
@@ -13,7 +17,6 @@ import java.io.IOException;
 
 public class TestFractal {
     public static void main(String[] args) throws IOException {
-
 
         IBenchmark bench = new SierpinskiBench();
         ITiming timer = new Timing();
@@ -48,5 +51,7 @@ public class TestFractal {
 
         bench.clean();
         fileLogger.close();
+        Fractal fractal = new Fractal();
+        fractal.doAll(time);
     }
 }
