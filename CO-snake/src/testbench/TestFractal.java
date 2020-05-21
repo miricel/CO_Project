@@ -18,7 +18,6 @@ import java.io.IOException;
 public class TestFractal {
     public static void main(String[] args) throws IOException {
 
-
         IBenchmark bench = new SierpinskyBench();
         ITiming timer = new Timing();
         ILogger fileLogger = new FileLogger("writefile.txt");

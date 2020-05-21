@@ -34,7 +34,7 @@ public class SnakeWithFixedPoint {
             bench.run();
             time = timer.pause();
             fileLogger.write("Run "+  i +":",time);
-            //consoleLogger.write("Run "+ i +":",time);
+            consoleLogger.write("Run "+ i +":",time);
         }
         time = timer.stop();
         bench.cancel();
