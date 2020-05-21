@@ -4,11 +4,13 @@ import bench.IBenchmark;
 
 import javax.swing.*;
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 public class SierpinskiBench implements IBenchmark {
+    JFrame frame;
     @Override
     public void run() {
-        JFrame frame=new JFrame();
+        frame=new JFrame();
         frame.setSize(1800, 1000);
         frame.setTitle("Sierpinski Carpet");
         frame.setLocationRelativeTo(null);
@@ -32,12 +34,17 @@ public class SierpinskiBench implements IBenchmark {
 
     @Override
     public void clean() {
+        try {
+            TimeUnit.SECONDS.sleep(6);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
+        frame.setVisible(false);
     }
 
     @Override
     public void cancel() {
-
     }
 
     @Override
