@@ -11,11 +11,10 @@ public class Screen extends JPanel implements Runnable {
 
     private static final long serialVersionUID = 1L;
 
-    public static final int WIDTH = 520, HEIGHT = 520;
+    public static final int WIDTH = 560, HEIGHT = 560;
     public static final int max = (WIDTH*39)/400 +1;
     private Snake fixedsnake;
     private Snake floatingsnake;
-    private Snake simplesnake;
 
     private Thread thread;
     private boolean running = false;
@@ -24,7 +23,6 @@ public class Screen extends JPanel implements Runnable {
     private ArrayList<Apple> apples;
     private ArrayList<BodyPart> snake1;
     private ArrayList<BodyPart> snake2;
-    private ArrayList<BodyPart> snake3;
 
     public Screen() {
         setFocusable(true);
@@ -53,7 +51,7 @@ public class Screen extends JPanel implements Runnable {
         g.setColor(Color.BLACK);
         g.fillRect(0, 0, WIDTH, HEIGHT);
 
-        g.setColor(new Color(150,140,150));
+        g.setColor(new Color(100,90,100));
         for (int i = 0; i < WIDTH / 10; i++) {
             g.drawLine(i * 10, 0, i * 10, HEIGHT);
         }
@@ -63,16 +61,17 @@ public class Screen extends JPanel implements Runnable {
 
         snake1 = fixedsnake.getBody();
         snake2 = floatingsnake.getBody();
-        snake3 = simplesnake.getBody();
+       // snake4 = onesnake.getBody();
         for (int i = 0; i < snake1.size(); i++) {
             snake1.get(i).draw(g);
         }
         for (int i = 0; i < snake2.size(); i++) {
             snake2.get(i).draw(g);
         }
-        for (int i = 0; i < snake3.size(); i++) {
-            snake3.get(i).draw(g);
-        }
+
+/*        for (int i = 0; i < snake4.size(); i++) {
+            snake4.get(i).draw(g);
+        }*/
 
         for(int i = 0; i < apples.size(); i++) {
             apples.get(i).draw(g);
@@ -82,18 +81,22 @@ public class Screen extends JPanel implements Runnable {
 
     public void start() {
         running = true;
-        fixedsnake = new Snake(this, new Color(130,110,150),max);
+        fixedsnake = new Snake(this, new Color(120,110,150),max);
         fixedsnake.start();
         floatingsnake = new Snake(this,new Color(100,150,100),max);
         floatingsnake.start();
-        simplesnake = new Snake(this,new Color(160,90,110),max);
-        simplesnake.start();
+
+       // onesnake = new Snake(this,,max);
+        //onesnake.start();
     }
 
     public void stop() {
         running = false;
         try {
             fixedsnake.join();
+            floatingsnake.join();
+
+           // onesnake.join();
         } catch (InterruptedException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -104,7 +107,6 @@ public class Screen extends JPanel implements Runnable {
         while (running) {
 
           floatingsnake.tick();
-          simplesnake.tick();
           repaint();
         }
     }
@@ -117,9 +119,6 @@ public class Screen extends JPanel implements Runnable {
         return floatingsnake;
     }
 
-    public Snake getSimplesnake() {
-        return simplesnake;
-    }
 
     //0 - right
     //1 - left

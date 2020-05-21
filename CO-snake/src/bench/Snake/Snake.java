@@ -9,17 +9,17 @@ import java.util.concurrent.locks.ReentrantLock;
 public class Snake extends Thread {
 
     private final int max;
+    private static Random r = new Random();
     private Screen  screen;
     private final static ArrayList<Apple> apples = new ArrayList<Apple>() ;
     private ArrayList<BodyPart> body = new ArrayList<BodyPart>();
     private BodyPart b;
     private static Apple apple;
-    private int xCoor = 10, yCoor = 10;
+    private int xCoor = r.nextInt(50), yCoor = r.nextInt(50);
     private int size = 15;
     private boolean right = true, left = false, up = false, down =false;
     private Color color;
-    private static Random r = new Random();
-    private Lock lock = new ReentrantLock();
+    private boolean ok = false;
 
     private int ticks = 0;
 
@@ -68,17 +68,17 @@ public class Snake extends Thread {
 
        ticks++;
 
-       if(ticks > 25000) {
-           if(right) xCoor++;
-           if(left) xCoor--;
-           if(up) yCoor--;
-           if(down) yCoor++;
+       if (ticks > 25000) {
+           if (right) xCoor++;
+           if (left) xCoor--;
+           if (up) yCoor--;
+           if (down) yCoor++;
            ticks = 0;
 
-           b = new BodyPart(xCoor, yCoor, 10,color);
+           b = new BodyPart(xCoor, yCoor, 10, color);
            body.add(b);
 
-           if(body.size() > size) {
+           if (body.size() > size) {
                body.remove(0);
            }
        }

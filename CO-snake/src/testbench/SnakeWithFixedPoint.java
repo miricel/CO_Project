@@ -22,11 +22,11 @@ public class SnakeWithFixedPoint {
         ILogger fileLogger = new FileLogger("writefile.txt");
         ILogger consoleLogger = new ConsoleLogger();
 
-        final int workload = 2500000;
+        final int workload = 1000000;
         final int size = 40;
 
         bench.initialize(workload,size);
-        bench.warmUp();
+       // bench.warmUp();
 
         timer.start();
         for(int i=0; i<12; ++i) {
