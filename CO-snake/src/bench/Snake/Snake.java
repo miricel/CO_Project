@@ -3,28 +3,30 @@ package bench.Snake;
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.Random;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class Snake extends Thread {
 
     private final int max;
     private Screen  screen;
-  //  private final ArrayList<Apple> apples;
+    private final static ArrayList<Apple> apples = new ArrayList<Apple>() ;
     private ArrayList<BodyPart> body = new ArrayList<BodyPart>();
     private BodyPart b;
-    private Apple apple;
+    private static Apple apple;
     private int xCoor = 10, yCoor = 10;
     private int size = 15;
     private boolean right = true, left = false, up = false, down =false;
     private Color color;
-    private Random r = new Random();
+    private static Random r = new Random();
+    private Lock lock = new ReentrantLock();
 
     private int ticks = 0;
 
-    public Snake(Screen screen, Color color,int max,ArrayList<Apple> apples) {
+    public Snake(Screen screen, Color color,int max) {
         this.color = color;
         this.screen = screen;
         this.max = max;
-       // this.apples = apples;
 
     }
 
@@ -37,69 +39,73 @@ public class Snake extends Thread {
     }
 
     public void tick() {
-        if (body.size() == 0) {
+        if (this.body.size() == 0) {
             b = new BodyPart(xCoor, yCoor, 10,color);
             body.add(b);
         }
 
 
-       /* while(apples.size() < 40) {
-            int xCoor = r.nextInt(max);
-            int yCoor = r.nextInt(max);
+        size += Snake.checkApples(xCoor,yCoor,max);
 
-            apple = new Apple(xCoor, yCoor, 10);
+       if(xCoor < 0 ) {
+           goUp();
+           xCoor ++;
+       }
+       else if(xCoor > max ) {
+           goDown();
+           xCoor --;
+       }
+       else if(yCoor < 0 ) {
+           goRight();
+           yCoor ++;
+       }
+       else if (yCoor > max) {
+           goLeft();
+           yCoor --;
+
+            //stop();
+       }
+
+       ticks++;
+
+       if(ticks > 25000) {
+           if(right) xCoor++;
+           if(left) xCoor--;
+           if(up) yCoor--;
+           if(down) yCoor++;
+           ticks = 0;
+
+           b = new BodyPart(xCoor, yCoor, 10,color);
+           body.add(b);
+
+           if(body.size() > size) {
+               body.remove(0);
+           }
+       }
+
+    }
+
+    private static synchronized int checkApples(int xCoor, int yCoor, int max) {
+        while (apples.size() < 20) {
+            int x = r.nextInt(max);
+            int y = r.nextInt(max);
+
+            apple = new Apple(x, y, 10);
             apples.add(apple);
         }
 
-        for(int i = 0; i < apples.size(); i++) {
-            if(xCoor == apples.get(i).getxCoor() &&
+        int cnt = 0;
+        for (int i = 0; i < apples.size(); i++) {
+            if (xCoor == apples.get(i).getxCoor() &&
                     yCoor == apples.get(i).getyCoor()) {
-                size++;
+                cnt++;
                 apples.remove(i);
                 i++;
             }
         }
-
-        */
-
-        if(xCoor < 0 ) {
-            goUp();
-            xCoor ++;
-        }
-        else if(xCoor > max ) {
-            goDown();
-            xCoor --;
-        }
-        else if(yCoor < 0 ) {
-            goRight();
-            yCoor ++;
-        }
-        else if (yCoor > max) {
-            goLeft();
-            yCoor --;
-
-            //stop();
-        }
-
-        ticks++;
-
-        if(ticks > 50000) {
-            if(right) xCoor++;
-            if(left) xCoor--;
-            if(up) yCoor--;
-            if(down) yCoor++;
-
-            ticks = 0;
-
-            b = new BodyPart(xCoor, yCoor, 10,color);
-            body.add(b);
-
-            if(body.size() > size) {
-                body.remove(0);
-            }
-        }
-
+        return cnt;
     }
+
     public void move(int direction){
         if(direction == 0 && !left) { // go right
             goRight();
@@ -144,5 +150,9 @@ public class Snake extends Thread {
 
     public ArrayList<BodyPart> getBody() {
         return body;
+    }
+
+    public static ArrayList<Apple> getApples() {
+        return apples;
     }
 }

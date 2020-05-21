@@ -42,9 +42,7 @@ public class Screen extends JPanel implements Runnable {
         frame.setVisible(true);
 
         r = new Random();
-
-        apples = new ArrayList<Apple>();
-
+        apples = Snake.getApples();
         start();
     }
 
@@ -84,11 +82,11 @@ public class Screen extends JPanel implements Runnable {
 
     public void start() {
         running = true;
-        fixedsnake = new Snake(this, new Color(130,110,150),max,apples);
+        fixedsnake = new Snake(this, new Color(130,110,150),max);
         fixedsnake.start();
-        floatingsnake = new Snake(this,new Color(100,150,100),max,apples);
+        floatingsnake = new Snake(this,new Color(100,150,100),max);
         floatingsnake.start();
-        simplesnake = new Snake(this,new Color(160,90,110),max,apples);
+        simplesnake = new Snake(this,new Color(160,90,110),max);
         simplesnake.start();
     }
 

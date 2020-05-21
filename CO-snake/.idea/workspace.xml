@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/Screen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/Screen.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bench/Snake/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/Snake/Screen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bench/Snake/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/Snake/Snake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testbench/SnakeWithFixedPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testbench/SnakeWithFixedPoint.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Facultate/An II/SEF/Proiect/Travel Map Project/travel-map" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -163,30 +162,31 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="423" y="150" key="#com.intellij.uiDesigner.palette.ComponentItemDialog/0.0.1280.689@0.0.1280.689" timestamp="1589192775550" />
-    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1589197532791">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state x="632" y="152" key="FileChooserDialogImpl" timestamp="1590052494819">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1589197532791" />
-    <state width="1877" height="185" key="GridCell.Tab.0.bottom" timestamp="1590014174421">
+    <state x="632" y="152" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1590052494819" />
+    <state width="1877" height="145" key="GridCell.Tab.0.bottom" timestamp="1590054794904">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1237" height="138" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1589361507640" />
-    <state width="1877" height="185" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1590014174421" />
-    <state width="1877" height="185" key="GridCell.Tab.0.center" timestamp="1590014174420">
+    <state width="1877" height="145" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1590054794904" />
+    <state width="1877" height="145" key="GridCell.Tab.0.center" timestamp="1590054794904">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1237" height="138" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1589361507640" />
-    <state width="1877" height="185" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1590014174420" />
-    <state width="1877" height="185" key="GridCell.Tab.0.left" timestamp="1590014174420">
+    <state width="1877" height="145" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1590054794904" />
+    <state width="1877" height="145" key="GridCell.Tab.0.left" timestamp="1590054794904">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1237" height="138" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1589361507640" />
-    <state width="1877" height="185" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1590014174420" />
-    <state width="1877" height="185" key="GridCell.Tab.0.right" timestamp="1590014174421">
+    <state width="1877" height="145" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1590054794904" />
+    <state width="1877" height="145" key="GridCell.Tab.0.right" timestamp="1590054794904">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1237" height="138" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1589361507640" />
-    <state width="1877" height="185" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1590014174421" />
+    <state width="1877" height="145" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1590054794904" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1589972105519">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -219,6 +219,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="315" y="156" key="refactoring.ChangeSignatureDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1589995635244" />
+    <state x="616" y="243" key="run.anything.popup" timestamp="1590053404407">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1590053404407" />
   </component>
   <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
     <option name="sizePresets">
