@@ -22,8 +22,8 @@ public class CPUFixedPoint implements IBenchmark{
 		// TODO Auto-generated method stub
 		
 		IntegerArithmeticTest();
-		BranchingTest();
-		ArrayAccessTest();
+		//BranchingTest();
+		//ArrayAccessTest();
 		// (27 + 18) * workload + 20 * size 
 	}
 
@@ -32,8 +32,8 @@ public class CPUFixedPoint implements IBenchmark{
 		// TODO Auto-generated method stub
 		
 		IntegerArithmeticTest();
-		BranchingTest();
-		ArrayAccessTest();
+		//BranchingTest();
+		//ArrayAccessTest();
 		// (27 + 18) * workload + (20 * size + 2) * workload
 	}
 
@@ -91,7 +91,7 @@ public class CPUFixedPoint implements IBenchmark{
 	
 	public void IntegerArithmeticTest() {
 		i = 3;
-		for(int a = 0; a<workload; a++)
+		for(int a = 0; a<size; a++)
 		{
 			j = num[1] * (k-j ) * (1-k); //6
 			k = num[3] * k - (1 - j) * k; //6
@@ -101,7 +101,7 @@ public class CPUFixedPoint implements IBenchmark{
 
 		}//25 + 2
 		
-		//27 * workload 
+		//27 * size
 	}
 	
 	public void BranchingTest() {

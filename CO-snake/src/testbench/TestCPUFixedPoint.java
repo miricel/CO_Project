@@ -2,7 +2,6 @@ package testbench;
 
 import java.io.IOException;
 
-import bench.Snake.FixedPointSnake;
 import bench.cpu.CPUFixedPoint;
 import logging.ConsoleLogger;
 import logging.FileLogger;
@@ -18,7 +17,7 @@ public class TestCPUFixedPoint {
 	
 		long time;
 	
-		FixedPointSnake bench = new FixedPointSnake();
+		CPUFixedPoint bench = new CPUFixedPoint();
 		ITiming timer = new Timing();
 		ILogger fileLogger = new FileLogger("writefile.txt");
 		ILogger consoleLogger = new ConsoleLogger();
@@ -48,7 +47,7 @@ public class TestCPUFixedPoint {
 		double OPS,MOPS;
 		
 		double timesec =  (time/1000000000.0);
-		OPS = ( (47.0 + 20.0 * size  ) * workload )/time ;
+		OPS = ( (27.0* size  ) /time) ;
 		MOPS = OPS /  1e6 ;
 		
 

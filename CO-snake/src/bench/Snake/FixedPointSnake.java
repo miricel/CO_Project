@@ -2,6 +2,7 @@ package bench.Snake;
 
 import bench.IBenchmark;
 
+import java.awt.*;
 import java.io.IOException;
 import java.util.Random;
 
@@ -13,7 +14,9 @@ public class FixedPointSnake implements IBenchmark {
     int num[];
     int res[] = new int[10];
     int size = 100;
-    private Snake snake;
+    private Snake fixedsnake;
+    private Snake floatingsnake;
+    private Snake simplesnake;
 
     @Override
     public void run() {
@@ -43,7 +46,10 @@ public class FixedPointSnake implements IBenchmark {
         k=1;
         l=2;
 
-        snake = new Snake();
+        Screen screen = new Screen();
+        fixedsnake = screen.getFixedsnake();
+        floatingsnake = screen.getFloatingsnake();
+        simplesnake = screen.getSimplesnake();
 
         running = true;
     }
@@ -58,7 +64,6 @@ public class FixedPointSnake implements IBenchmark {
     public void cancel() {
         // TODO Auto-generated method stub
         running = false;
-        snake.screen.stop();
 
     }
 
@@ -95,7 +100,9 @@ public class FixedPointSnake implements IBenchmark {
             }
 
             direction %= 4;
-            snake.screen.move(direction);
+            fixedsnake.move(direction);
+            floatingsnake.move(r.nextInt(4));
+            simplesnake.move(r.nextInt(4));
         }
     }
 
