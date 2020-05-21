@@ -4,6 +4,7 @@ import bench.IBenchmark;
 
 import java.awt.*;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.Random;
 
 public class FixedPointSnake implements IBenchmark {
@@ -16,12 +17,36 @@ public class FixedPointSnake implements IBenchmark {
     int size = 100;
     private Snake fixedsnake;
     private Snake floatingsnake;
-    private Snake simplesnake;
+    private Thread fixed;
+    private Thread floating;
 
     @Override
     public void run() {
         // TODO Auto-generated method stub
-        IntegerArithmetic();
+        fixed =  new Thread(){
+            @Override
+            public void run() {
+                IntegerArithmetic();
+            }
+        };
+
+        floating =  new Thread(){
+            @Override
+            public void run() {
+                FloatingArithmetic();
+            }
+        };
+
+        fixed.start();
+        floating.start();
+
+        try {
+            fixed.join();
+            floating.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
     }
 
     @Override
@@ -49,7 +74,6 @@ public class FixedPointSnake implements IBenchmark {
         Screen screen = new Screen();
         fixedsnake = screen.getFixedsnake();
         floatingsnake = screen.getFloatingsnake();
-        simplesnake = screen.getSimplesnake();
 
         running = true;
     }
@@ -101,11 +125,30 @@ public class FixedPointSnake implements IBenchmark {
 
             direction %= 4;
             fixedsnake.move(direction);
-            floatingsnake.move(r.nextInt(4));
-            simplesnake.move(r.nextInt(4));
+
         }
     }
 
+    public void FloatingArithmetic(){
+        i = 3;
+        Random r = new Random();
+        int direction = 0;
+        for (int moves = 0; moves < 40; moves ++) {
+            for (int a = 0; a < workload; a++) {
+                j = num[1] * (k - j) * (1 - k);
+                k = num[3] * k - (1 - j) * k;
+                l = (l - k) * (num[1] + j);
+                i = i % 10;
+                direction = i + j + k + l + r.nextInt(284);
 
+                num[k % 3] = (j - l) + k * num[1] * j;
+                res[i - 2] = j + k + 1;
+                res[i - 1] = j * k * 1;
+            }
+
+            direction %= 4;
+            floatingsnake.move(r.nextInt(4));
+        }
+    }
 
 }

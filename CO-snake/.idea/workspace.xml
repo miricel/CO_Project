@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3da68237-66aa-4a9b-9eb9-1d1189fde9e9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/FixedPointSnake.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/FixedPointSnake.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/Screen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/Screen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/Snake.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/Snake.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bench/Snake/FixedPointSnake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/Snake/FixedPointSnake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bench/Snake/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/Snake/Screen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bench/Snake/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/Snake/Snake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testbench/SnakeWithFixedPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testbench/SnakeWithFixedPoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/writefile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/writefile.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="C:/Facultate/An II/SEF/Proiect/Travel Map Project/travel-map" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -159,31 +167,31 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="423" y="150" key="#com.intellij.uiDesigner.palette.ComponentItemDialog/0.0.1280.689@0.0.1280.689" timestamp="1589192775550" />
-    <state x="632" y="152" key="FileChooserDialogImpl" timestamp="1590052494819">
+    <state x="632" y="152" key="FileChooserDialogImpl" timestamp="1590064653189">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1589197532791" />
-    <state x="632" y="152" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1590052494819" />
-    <state width="1877" height="145" key="GridCell.Tab.0.bottom" timestamp="1590055253264">
+    <state x="632" y="152" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1590064653189" />
+    <state width="1877" height="145" key="GridCell.Tab.0.bottom" timestamp="1590077914116">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1237" height="138" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1589361507640" />
-    <state width="1877" height="145" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1590055253264" />
-    <state width="1877" height="145" key="GridCell.Tab.0.center" timestamp="1590055253264">
+    <state width="1877" height="145" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1590077914116" />
+    <state width="1877" height="145" key="GridCell.Tab.0.center" timestamp="1590077914116">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1237" height="138" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1589361507640" />
-    <state width="1877" height="145" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1590055253264" />
-    <state width="1877" height="145" key="GridCell.Tab.0.left" timestamp="1590055253264">
+    <state width="1877" height="145" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1590077914116" />
+    <state width="1877" height="145" key="GridCell.Tab.0.left" timestamp="1590077914115">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1237" height="138" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1589361507640" />
-    <state width="1877" height="145" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1590055253264" />
-    <state width="1877" height="145" key="GridCell.Tab.0.right" timestamp="1590055253264">
+    <state width="1877" height="145" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1590077914115" />
+    <state width="1877" height="145" key="GridCell.Tab.0.right" timestamp="1590077914116">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1237" height="138" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1589361507640" />
-    <state width="1877" height="145" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1590055253264" />
+    <state width="1877" height="145" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1590077914116" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1589972105519">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
