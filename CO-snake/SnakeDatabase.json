@@ -3,56 +3,72 @@
     "CPU": "Windows 10",
     "OS": "amd64",
     "cores": 8,
-    "score": 0,
-    "clock": 24982600,
-    "ram": 17033633792
-  },
-  {
-    "CPU": "Windows 10",
-    "OS": "amd64",
-    "cores": 8,
-    "score": 0,
-    "clock": 3406600,
-    "ram": 17033633792
-  },
-  {
-    "CPU": "Windows 10",
-    "OS": "amd64",
-    "cores": 8,
-    "score": 0,
-    "clock": 2879000,
-    "ram": 17033633792
-  },
-  {
-    "CPU": "Windows 10",
-    "OS": "amd64",
-    "cores": 8,
-    "score": 0,
-    "clock": 38400,
-    "ram": 17033633792
-  },
-  {
-    "CPU": "Windows 10",
-    "OS": "amd64",
-    "cores": 8,
-    "score": 0,
-    "clock": 27300,
-    "ram": 17033633792
-  },
-  {
-    "CPU": "Windows 10",
-    "OS": "amd64",
-    "cores": 8,
-    "score": 0,
-    "clock": 18695300,
-    "ram": 17033633792
-  },
-  {
-    "CPU": "Windows 10",
-    "OS": "amd64",
-    "cores": 8,
     "score": 24,
     "clock": 2492558300,
+    "ram": 17033633792
+  },
+  {
+    "CPU": "Windows 10",
+    "OS": "amd64",
+    "cores": 8,
+    "score": 922,
+    "clock": 92225969600,
+    "ram": 17033633792
+  },
+  {
+    "CPU": "Windows 10",
+    "OS": "amd64",
+    "cores": 8,
+    "score": 58,
+    "clock": 5850459300,
+    "ram": 17033633792
+  },
+  {
+    "CPU": "Windows 10",
+    "OS": "amd64",
+    "cores": 8,
+    "score": 18,
+    "clock": 1834274500,
+    "ram": 17033633792
+  },
+  {
+    "CPU": "Windows 10",
+    "OS": "amd64",
+    "cores": 8,
+    "score": 14,
+    "clock": 1455547900,
+    "ram": 17033633792
+  },
+  {
+    "CPU": "amd64",
+    "OS": "Windows 10",
+    "cores": 8,
+    "score": 54,
+    "clock": 5478505400,
+    "ram": 17033633792
+  },
+  {
+    "CPU": "AMD64",
+    "OS": "Windows 10",
+    "cores": 8,
+    "score": 17,
+    "clock": 1754458300,
+    "ram": 17033633792
+  },
+  {
+    "CPU": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+    "OS": "Windows 10",
+    "cores": 8,
+    "score": 15,
+    "clock": 1557860400,
+    "ram": 17033633792
+  },
+  {
+    "CPU": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+    "OS": "Windows 10",
+    "cores": 8,
+    "score": 29,
+    "clock": 2957631700,
     "ram": 17033633792
   }
 ]

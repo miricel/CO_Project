@@ -2,95 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3da68237-66aa-4a9b-9eb9-1d1189fde9e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CO-snake.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CO-snake.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/Agreement-Bold-Italic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/Agreement-Bold.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/Agreement-Inverse.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/Agreement-Italic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/Agreement.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/DarkSeed.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/Generate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/Benchmark.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/DemoBenchmark.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/Fractal/Sierpinsky.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/Fractal/SierpinskyBench.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/Fractal/SierpinskyCarpet$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/Fractal/SierpinskyCarpet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/IBenchmark.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/Apple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/BackgroundPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/BodyPart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/FixedPointSnake$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/FixedPointSnake$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/FixedPointSnake.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/Screen$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/Screen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/Snake.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/Snake/SnakeCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/cpu/CPUDigitsOfPi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/cpu/CPUFixedPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/cpu/CPUFixedVsFloatingPoint$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/cpu/CPUFixedVsFloatingPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/bench/cpu/NumberRepresentation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/logging/ConsoleLogger$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/logging/ConsoleLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/logging/FileLogger$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/logging/FileLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/logging/ILogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/logging/TimeUnit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/testbench/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/testbench/SnakeWithFixedPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/testbench/TestCPUDigitsOfPi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/testbench/TestCPUFixedPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/testbench/TestCPUFixedVsFloatingPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/testbench/TestFractal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/timing/ITiming.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CO-snake/timing/Timing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/Benchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bench/Benchmark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/DemoBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bench/DemoBenchmark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/Fractal/SierpinskiBench.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bench/Fractal/SierpinskiBench.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/Fractal/SierpinskiCarpet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bench/Fractal/SierpinskiCarpet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/IBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bench/IBenchmark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/Snake/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bench/Snake/Apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/Snake/BackgroundPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bench/Snake/BackgroundPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/Snake/BodyPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bench/Snake/BodyPart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/Snake/FixedPointSnake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bench/Snake/FixedPointSnake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/Snake/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bench/Snake/Screen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/Snake/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bench/Snake/Snake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/Snake/SnakeCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bench/Snake/SnakeCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/cpu/CPUDigitsOfPi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bench/cpu/CPUDigitsOfPi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/cpu/CPUFixedPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bench/cpu/CPUFixedPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/cpu/CPUFixedVsFloatingPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bench/cpu/CPUFixedVsFloatingPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/cpu/NumberRepresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bench/cpu/NumberRepresentation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/database/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bench/database/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/database/DatabaseFractal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bench/database/DatabaseFractal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/database/DatabaseSnake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bench/database/DatabaseSnake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/database/Fractal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bench/database/Fractal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/database/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bench/database/SnakeDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/database/gson-2.8.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bench/database/gson-2.8.5.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logging/ConsoleLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logging/ConsoleLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logging/FileLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logging/FileLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logging/ILogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logging/ILogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logging/TimeUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logging/TimeUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testbench/Generate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testbench/Generate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testbench/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testbench/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testbench/SnakeWithFixedPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testbench/SnakeWithFixedPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testbench/TestCPUDigitsOfPi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testbench/TestCPUDigitsOfPi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testbench/TestCPUFixedPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testbench/TestCPUFixedPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testbench/TestCPUFixedVsFloatingPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testbench/TestCPUFixedVsFloatingPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testbench/TestFractal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testbench/TestFractal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testbench/gui/BImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testbench/gui/BImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testbench/gui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testbench/gui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testbench/gui/finishFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testbench/gui/finishFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timing/ITiming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timing/ITiming.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timing/Timing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timing/Timing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnakeDatabase.json" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeDatabase.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bench/database/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bench/database/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bench/database/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bench/database/Data.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/writefile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/writefile.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,10 +35,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="C:/Facultate/An II/SEF/Proiect/Travel Map Project/travel-map" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/bench/database/gson-2.8.5.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -238,10 +154,10 @@
     </state>
     <state x="126" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1589356040775" />
     <state x="189" y="87" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1590090673065" />
-    <state x="683" y="213" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1590097183199">
+    <state x="683" y="213" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1590134372458">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="683" y="213" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1590097183199" />
+    <state x="683" y="213" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1590134372458" />
     <state x="74" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589190142692">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -254,31 +170,31 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="423" y="150" key="#com.intellij.uiDesigner.palette.ComponentItemDialog/0.0.1280.689@0.0.1280.689" timestamp="1589192775550" />
-    <state x="632" y="152" key="FileChooserDialogImpl" timestamp="1590128917908">
+    <state x="632" y="152" key="FileChooserDialogImpl" timestamp="1590133458304">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1589197532791" />
-    <state x="632" y="152" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1590128917908" />
-    <state width="1877" height="145" key="GridCell.Tab.0.bottom" timestamp="1590130776262">
+    <state x="632" y="152" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1590133458304" />
+    <state width="1877" height="145" key="GridCell.Tab.0.bottom" timestamp="1590134323524">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1237" height="138" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1589361507640" />
-    <state width="1877" height="145" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1590130776262" />
-    <state width="1877" height="145" key="GridCell.Tab.0.center" timestamp="1590130776262">
+    <state width="1877" height="145" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1590134323524" />
+    <state width="1877" height="145" key="GridCell.Tab.0.center" timestamp="1590134323523">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1237" height="138" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1589361507640" />
-    <state width="1877" height="145" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1590130776262" />
-    <state width="1877" height="145" key="GridCell.Tab.0.left" timestamp="1590130776262">
+    <state width="1877" height="145" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1590134323523" />
+    <state width="1877" height="145" key="GridCell.Tab.0.left" timestamp="1590134323523">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1237" height="138" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1589361507640" />
-    <state width="1877" height="145" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1590130776262" />
-    <state width="1877" height="145" key="GridCell.Tab.0.right" timestamp="1590130776262">
+    <state width="1877" height="145" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1590134323523" />
+    <state width="1877" height="145" key="GridCell.Tab.0.right" timestamp="1590134323524">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1237" height="138" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1589361507640" />
-    <state width="1877" height="145" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1590130776262" />
+    <state width="1877" height="145" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1590134323524" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1589972105519">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -303,6 +219,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="672" y="240" key="MultipleFileMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1590083075639" />
+    <state x="440" y="99" key="SettingsEditor" timestamp="1590133460488">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="440" y="99" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1590133460488" />
     <state x="506" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1590126118938">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

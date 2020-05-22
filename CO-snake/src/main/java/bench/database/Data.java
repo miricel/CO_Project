@@ -1,10 +1,15 @@
 package bench.database;
 
 import java.lang.management.ManagementFactory;
+import com.sun.jna.platform.win32.Advapi32Util;
+import static com.sun.jna.platform.win32.WinReg.HKEY_LOCAL_MACHINE;
 
 public class Data {
 	
-	private String CPU=System.getProperty("os.name"), OS=System.getProperty("os.arch");
+	private String CPU=Advapi32Util.registryGetStringValue
+			(HKEY_LOCAL_MACHINE,
+					"HARDWARE\\DESCRIPTION\\System\\CentralProcessor\\0\\",
+					"ProcessorNameString"), OS=System.getProperty("os.name");
 	private int cores=Runtime.getRuntime().availableProcessors(), score;
 	private long clock;
 	private long ram = ((com.sun.management.OperatingSystemMXBean) ManagementFactory.getOperatingSystemMXBean()).getTotalPhysicalMemorySize();
