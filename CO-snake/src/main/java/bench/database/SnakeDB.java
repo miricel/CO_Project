@@ -12,7 +12,7 @@ public class SnakeDB {
 		database.readFromFile();
 		
 		Data newData = new Data();
-		long bestTime=10000000000L;
+		long bestTime=47000000000L;
 		newData.setTime(time);
 		newData.setScore((int)(100*newData.clock()/bestTime));
 		

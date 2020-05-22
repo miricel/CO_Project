@@ -11,7 +11,7 @@ public class Fractal {
 		database.readFromFile();
 		
 		Data newData = new Data();
-		long bestTime=10000000L;
+		long bestTime=200000000L;
 		newData.setTime(time);
 		newData.setScore((int)(100*newData.clock()/bestTime));
 		

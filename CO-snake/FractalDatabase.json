@@ -14,5 +14,77 @@
     "score": 235,
     "clock": 23542600,
     "ram": 17033633792
+  },
+  {
+    "CPU": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+    "OS": "Windows 10",
+    "cores": 8,
+    "score": 1913,
+    "clock": 191376600,
+    "ram": 17033633792
+  },
+  {
+    "CPU": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+    "OS": "Windows 10",
+    "cores": 8,
+    "score": 2172,
+    "clock": 217212300,
+    "ram": 17033633792
+  },
+  {
+    "CPU": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+    "OS": "Windows 10",
+    "cores": 8,
+    "score": 403,
+    "clock": 40366100,
+    "ram": 17033633792
+  },
+  {
+    "CPU": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+    "OS": "Windows 10",
+    "cores": 8,
+    "score": 2024,
+    "clock": 202465700,
+    "ram": 17033633792
+  },
+  {
+    "CPU": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+    "OS": "Windows 10",
+    "cores": 8,
+    "score": 1744,
+    "clock": 209280700,
+    "ram": 17033633792
+  },
+  {
+    "CPU": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+    "OS": "Windows 10",
+    "cores": 8,
+    "score": 171,
+    "clock": 206168200,
+    "ram": 17033633792
+  },
+  {
+    "CPU": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+    "OS": "Windows 10",
+    "cores": 8,
+    "score": 98,
+    "clock": 197171300,
+    "ram": 17033633792
+  },
+  {
+    "CPU": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+    "OS": "Windows 10",
+    "cores": 8,
+    "score": 88,
+    "clock": 221326800,
+    "ram": 17033633792
+  },
+  {
+    "CPU": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+    "OS": "Windows 10",
+    "cores": 8,
+    "score": 93,
+    "clock": 186845000,
+    "ram": 17033633792
   }
 ]
