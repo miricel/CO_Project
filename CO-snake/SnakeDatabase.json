@@ -1,0 +1,58 @@
+[
+  {
+    "CPU": "Windows 10",
+    "OS": "amd64",
+    "cores": 8,
+    "score": 0,
+    "clock": 24982600,
+    "ram": 17033633792
+  },
+  {
+    "CPU": "Windows 10",
+    "OS": "amd64",
+    "cores": 8,
+    "score": 0,
+    "clock": 3406600,
+    "ram": 17033633792
+  },
+  {
+    "CPU": "Windows 10",
+    "OS": "amd64",
+    "cores": 8,
+    "score": 0,
+    "clock": 2879000,
+    "ram": 17033633792
+  },
+  {
+    "CPU": "Windows 10",
+    "OS": "amd64",
+    "cores": 8,
+    "score": 0,
+    "clock": 38400,
+    "ram": 17033633792
+  },
+  {
+    "CPU": "Windows 10",
+    "OS": "amd64",
+    "cores": 8,
+    "score": 0,
+    "clock": 27300,
+    "ram": 17033633792
+  },
+  {
+    "CPU": "Windows 10",
+    "OS": "amd64",
+    "cores": 8,
+    "score": 0,
+    "clock": 18695300,
+    "ram": 17033633792
+  },
+  {
+    "CPU": "Windows 10",
+    "OS": "amd64",
+    "cores": 8,
+    "score": 24,
+    "clock": 2492558300,
+    "ram": 17033633792
+  }
+]

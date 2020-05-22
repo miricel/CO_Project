@@ -1,0 +1,18 @@
+[
+  {
+    "CPU": "Windows 10",
+    "OS": "amd64",
+    "cores": 8,
+    "score": 1170,
+    "clock": 117007900,
+    "ram": 17033633792
+  },
+  {
+    "CPU": "Windows 10",
+    "OS": "amd64",
+    "cores": 8,
+    "score": 235,
+    "clock": 23542600,
+    "ram": 17033633792
+  }
+]
