@@ -101,7 +101,7 @@ public class Screen extends JPanel {
 
 
 
-    public  void paintComponent(Graphics g) {
+    public synchronized void paint(Graphics g) {
         g.clearRect(0, 0, WIDTH, HEIGHT);
         g.setColor(new Color (20,20,20));
         g.fillRect(0, 0, WIDTH, HEIGHT);

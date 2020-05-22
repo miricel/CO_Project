@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3da68237-66aa-4a9b-9eb9-1d1189fde9e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SnakeDatabase.json" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeDatabase.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bench/database/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bench/database/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bench/database/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bench/database/Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bench/Snake/FixedPointSnake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bench/Snake/FixedPointSnake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bench/Snake/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bench/Snake/Screen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testbench/SnakeWithFixedPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testbench/SnakeWithFixedPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bench/Snake/FixedPointSnake$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bench/Snake/FixedPointSnake$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bench/Snake/FixedPointSnake$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bench/Snake/FixedPointSnake$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bench/Snake/FixedPointSnake.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bench/Snake/FixedPointSnake.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bench/Snake/Screen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bench/Snake/Screen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testbench/SnakeWithFixedPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testbench/SnakeWithFixedPoint.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/writefile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/writefile.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/bench/database/gson-2.8.5.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -175,26 +180,26 @@
     </state>
     <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1589197532791" />
     <state x="632" y="152" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1590133458304" />
-    <state width="1877" height="145" key="GridCell.Tab.0.bottom" timestamp="1590134323524">
+    <state width="1877" height="145" key="GridCell.Tab.0.bottom" timestamp="1590136013547">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1237" height="138" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1589361507640" />
-    <state width="1877" height="145" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1590134323524" />
-    <state width="1877" height="145" key="GridCell.Tab.0.center" timestamp="1590134323523">
+    <state width="1877" height="145" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1590136013547" />
+    <state width="1877" height="145" key="GridCell.Tab.0.center" timestamp="1590136013547">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1237" height="138" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1589361507640" />
-    <state width="1877" height="145" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1590134323523" />
-    <state width="1877" height="145" key="GridCell.Tab.0.left" timestamp="1590134323523">
+    <state width="1877" height="145" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1590136013547" />
+    <state width="1877" height="145" key="GridCell.Tab.0.left" timestamp="1590136013547">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1237" height="138" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1589361507640" />
-    <state width="1877" height="145" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1590134323523" />
-    <state width="1877" height="145" key="GridCell.Tab.0.right" timestamp="1590134323524">
+    <state width="1877" height="145" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1590136013547" />
+    <state width="1877" height="145" key="GridCell.Tab.0.right" timestamp="1590136013547">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1237" height="138" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1589361507640" />
-    <state width="1877" height="145" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1590134323524" />
+    <state width="1877" height="145" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1590136013547" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1589972105519">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -219,10 +224,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="672" y="240" key="MultipleFileMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1590083075639" />
-    <state x="440" y="99" key="SettingsEditor" timestamp="1590133460488">
+    <state x="440" y="99" key="SettingsEditor" timestamp="1590135917731">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="440" y="99" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1590133460488" />
+    <state x="440" y="99" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1590135917731" />
     <state x="506" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1590126118938">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

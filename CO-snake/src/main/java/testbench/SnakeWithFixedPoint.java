@@ -54,6 +54,7 @@ public class SnakeWithFixedPoint {
 
         new SnakeDB().doAll(time);
 
+
     }
 
     public static void cancel(){

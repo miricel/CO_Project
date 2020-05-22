@@ -1,6 +1,7 @@
 package bench.Snake;
 
 import bench.IBenchmark;
+import testbench.SnakeWithFixedPoint;
 
 import java.io.IOException;
 import java.util.Random;
