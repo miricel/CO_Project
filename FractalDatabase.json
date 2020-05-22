@@ -30,5 +30,13 @@
     "score": 141,
     "clock": 14158000,
     "ram": 8488435712
+  },
+  {
+    "CPU": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+    "OS": "Windows 10",
+    "cores": 8,
+    "score": 218,
+    "clock": 19700082100,
+    "ram": 17033633792
   }
 ]

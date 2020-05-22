@@ -87,7 +87,7 @@ public class Snake extends Thread {
     }
 
     private static synchronized int checkApples(int xCoor, int yCoor, int max) {
-        while (apples.size() < 20) {
+        while (apples.size() < 25) {
             int x = r.nextInt(max);
             int y = r.nextInt(max);
 

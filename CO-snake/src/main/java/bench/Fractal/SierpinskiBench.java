@@ -7,10 +7,9 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class SierpinskiBench implements IBenchmark {
-    JFrame frame;
+    private JFrame frame = new JFrame();
     @Override
     public void run() {
-        frame=new JFrame();
         frame.setSize(1800, 1000);
         frame.setTitle("Sierpinski Carpet");
         frame.setLocationRelativeTo(null);

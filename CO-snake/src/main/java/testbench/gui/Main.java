@@ -1,11 +1,8 @@
 package testbench.gui;
 
-import bench.Snake.Screen;
-import bench.Snake.SnakeCount;
-import testbench.SnakeWithFixedPoint;
+import testbench.TestSnakesAlgorithms;
 import testbench.TestFractal;
 
-import javax.imageio.ImageIO;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
@@ -13,7 +10,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
-import java.net.URL;
 
 public class Main {
     public static JFrame frame;
@@ -29,7 +25,6 @@ public class Main {
 
     public static void main(String[] args) throws IOException, NullPointerException{
         frame = new JFrame("Benchmarking Application");
-        BImage bi = new BImage();
 
         JButton snakeButton = new JButton("Snake");
         JButton fractalButton = new JButton("Fractal");
@@ -65,9 +60,6 @@ public class Main {
         newPanel.add(fractalButton, constraints);
 
         newPanel.setBounds(300, 100, 800, 500);
-        bi.setLayout(null);
-        bi.add(newPanel);
-        frame.add(bi);
         frame.setSize(365, 395);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLocationRelativeTo(null);
@@ -83,7 +75,7 @@ public class Main {
             String[] args = {};
 
             try {
-                SnakeWithFixedPoint.main(args);
+                TestSnakesAlgorithms.main(args);
             } catch (IOException ex) {
                 ex.printStackTrace();
             }

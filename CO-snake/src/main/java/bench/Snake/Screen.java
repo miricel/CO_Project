@@ -1,10 +1,9 @@
 package bench.Snake;
-import testbench.SnakeWithFixedPoint;
+import testbench.TestSnakesAlgorithms;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Random;
@@ -32,14 +31,13 @@ public class Screen extends JPanel {
 
     public SnakeCount purple = new SnakeCount("Fixed Point: ");
     public SnakeCount green = new SnakeCount("Floating Point: ");
+    private JFrame frame = new JFrame();
+    private JPanel contentpane = new JPanel();
+
 
     public Screen() {
         setFocusable(true);
         setPreferredSize(new Dimension(WIDTH, HEIGHT));
-
-        JFrame frame = new JFrame();
-        JPanel contentpane = new JPanel();
-
 
         JPanel panel = new JPanel();
         panel.setBounds(WIDTH+54,0,300,HEIGHT + 160);
@@ -56,6 +54,7 @@ public class Screen extends JPanel {
         frame.setBackground(Color.black);
         frame.setLayout(null);
         frame.add(contentpane);
+
         contentpane.setLayout(null);
         contentpane.setBounds(0,0,1000,800);
         contentpane.setBackground(Color.black);
@@ -71,7 +70,7 @@ public class Screen extends JPanel {
         panel.add(cancel);
         cancel.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                SnakeWithFixedPoint.cancel();
+                TestSnakesAlgorithms.cancel();
                 stop();
             }
         });
@@ -149,6 +148,7 @@ public class Screen extends JPanel {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
+        frame.setVisible(false);
     }
 
     public Snake getFixedsnake() {
@@ -167,6 +167,9 @@ public class Screen extends JPanel {
         green.add();
     }
 
+    public JFrame getFrame() {
+        return frame;
+    }
 
     //0 - right
     //1 - left
